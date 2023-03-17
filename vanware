@@ -150,7 +150,7 @@ function Library.Main(text : string)
         Active = true;
         Draggable = true
     })
-
+    
     local MainStroke = make("UIStroke",{
         Parent = Main;
         ApplyStrokeMode = Enum.ApplyStrokeMode.Border;
@@ -182,7 +182,7 @@ function Library.Main(text : string)
             Position = UDim2.new(0.5,0,0.5,0);
             BorderSizePixel = 0;
             BackgroundTransparency = 1;
-            Image = "rbxassetid://12814493063";
+            Image = "rbxassetid://10562470318";
             ImageTransparency = 1;
             ImageColor3 = Color3.fromRGB(255,255,255);
             ScaleType = Enum.ScaleType["Crop"];
@@ -314,7 +314,7 @@ function Library.Main(text : string)
         Position = UDim2.new(1,-22,0.5,0);
         BorderSizePixel = 0;
         BackgroundTransparency = 1;
-        Image = "rbxassetid://12814532009";
+        Image = "rbxassetid://10527389431";
         ImageRectOffset = rectOffset or Vector2.new(0,0);
         ImageRectSize = rectSize or Vector2.new(0,0);
         ImageTransparency = 0;
